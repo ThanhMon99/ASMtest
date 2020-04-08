@@ -6,12 +6,12 @@ switch ($role) {
      case 'Admin':
          $_SESSION['role'] = 'Admin';
 
-         header( 'Location: Register.php');
+         header( 'Location: chat.php');
          break;
      case 'Staff':
          $_SESSION['role'] = 'Staff';
 
-         header( 'Location: managecourse.php');
+         header( 'Location: allocate.php');
          break;
       
         }
